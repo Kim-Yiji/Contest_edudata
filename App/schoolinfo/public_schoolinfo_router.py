@@ -5,7 +5,7 @@ from App.config import API_KEY
 from utils.data_handler import save_json
 import traceback
 
-router = APIRouter(prefix="/schoolinfo", tags=["SchoolInfo"])
+router = APIRouter(prefix="/publicschool", tags=["SchoolInfo"])
 
 @router.post("/budget")
 def get_budget_and_save(request: SchoolBudgetRequest):
