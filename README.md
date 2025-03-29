@@ -1,6 +1,7 @@
 # Contest_edudata
 25-1 교육 공공데이터 공모전
 
+0. config 파일 세팅 : API_KEY = "발급된 키" 형태
 1. uvicorn App.main:app --reload
 2. http://localhost:8000/docs
 3. certifi 관련 환경 셋업 - 난 그냥 verify = False 해버림
