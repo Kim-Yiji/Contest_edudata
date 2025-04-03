@@ -16,7 +16,7 @@ def run_batch_download(type: str = Query("both", enum=["public", "private", "bot
     failed = []
     start = time.time()
 
-    years = [2021, 2022, 2023]
+    years = [2022, 2023, 2024]
     schul_codes = ["02", "03", "04"]
     depth1 = ["10", "20"]
     depth2 = ["1", "2", "3", "4"]

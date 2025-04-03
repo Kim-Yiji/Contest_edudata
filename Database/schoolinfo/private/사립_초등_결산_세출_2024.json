@@ -182,9 +182,11 @@
       "SCHUL_NM": "중앙대학교사범대학부속초등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "초",
       "FOND_SC_CODE": "사립",
       "SCHUL_KND_SC_CODE": "02",
       "ADRCD_NM": "서울특별시 도봉구",
+      "SCHUL_CRSE_SC_VALUE": "2",
       "JU_ORG_NM": "서울특별시북부교육지원청",
       "ATPT_OFCDC_ORG_NM": "서울특별시교육청",
       "JU_ORG_CODE": "B100000315",
@@ -234,9 +236,11 @@
       "SCHUL_NM": "상명초등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "초",
       "FOND_SC_CODE": "사립",
       "SCHUL_KND_SC_CODE": "02",
       "ADRCD_NM": "서울특별시 노원구",
+      "SCHUL_CRSE_SC_VALUE": "2",
       "JU_ORG_NM": "서울특별시북부교육지원청",
       "ATPT_OFCDC_ORG_NM": "서울특별시교육청",
       "JU_ORG_CODE": "B100000315",
@@ -413,9 +417,11 @@
       "SCHUL_NM": "선일초등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "초",
       "FOND_SC_CODE": "사립",
       "SCHUL_KND_SC_CODE": "02",
       "ADRCD_NM": "서울특별시 은평구",
+      "SCHUL_CRSE_SC_VALUE": "2",
       "JU_ORG_NM": "서울특별시서부교육지원청",
       "ATPT_OFCDC_ORG_NM": "서울특별시교육청",
       "JU_ORG_CODE": "B100000326",
@@ -488,9 +494,11 @@
       "SCHUL_NM": "추계초등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "초",
       "FOND_SC_CODE": "사립",
       "SCHUL_KND_SC_CODE": "02",
       "ADRCD_NM": "서울특별시 은평구",
+      "SCHUL_CRSE_SC_VALUE": "2",
       "JU_ORG_NM": "서울특별시서부교육지원청",
       "ATPT_OFCDC_ORG_NM": "서울특별시교육청",
       "JU_ORG_CODE": "B100000326",
@@ -538,9 +546,11 @@
       "SCHUL_NM": "홍익대학교사범대학부속초등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "초",
       "FOND_SC_CODE": "사립",
       "SCHUL_KND_SC_CODE": "02",
       "ADRCD_NM": "서울특별시 광진구",
+      "SCHUL_CRSE_SC_VALUE": "2",
       "JU_ORG_NM": "서울특별시성동광진교육지원청",
       "ATPT_OFCDC_ORG_NM": "서울특별시교육청",
       "JU_ORG_CODE": "B100000337",
@@ -563,9 +573,11 @@
       "SCHUL_NM": "경복초등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "초",
       "FOND_SC_CODE": "사립",
       "SCHUL_KND_SC_CODE": "02",
       "ADRCD_NM": "서울특별시 광진구",
+      "SCHUL_CRSE_SC_VALUE": "2",
       "JU_ORG_NM": "서울특별시성동광진교육지원청",
       "ATPT_OFCDC_ORG_NM": "서울특별시교육청",
       "JU_ORG_CODE": "B100000337",
@@ -640,9 +652,11 @@
       "SCHUL_NM": "한양초등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "초",
       "FOND_SC_CODE": "사립",
       "SCHUL_KND_SC_CODE": "02",
       "ADRCD_NM": "서울특별시 성북구",
+      "SCHUL_CRSE_SC_VALUE": "2",
       "JU_ORG_NM": "서울특별시성북강북교육지원청",
       "ATPT_OFCDC_ORG_NM": "서울특별시교육청",
       "JU_ORG_CODE": "B100000348",
@@ -896,9 +910,11 @@
       "SCHUL_NM": "상명대학교사범대학부속초등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "초",
       "FOND_SC_CODE": "사립",
       "SCHUL_KND_SC_CODE": "02",
       "ADRCD_NM": "서울특별시 중구",
+      "SCHUL_CRSE_SC_VALUE": "2",
       "JU_ORG_NM": "서울특별시중부교육지원청",
       "ATPT_OFCDC_ORG_NM": "서울특별시교육청",
       "JU_ORG_CODE": "B100000359",
@@ -946,9 +962,11 @@
       "SCHUL_NM": "신광초등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "초",
       "FOND_SC_CODE": "사립",
       "SCHUL_KND_SC_CODE": "02",
       "ADRCD_NM": "서울특별시 종로구",
+      "SCHUL_CRSE_SC_VALUE": "2",
       "JU_ORG_NM": "서울특별시중부교육지원청",
       "ATPT_OFCDC_ORG_NM": "서울특별시교육청",
       "JU_ORG_CODE": "B100000359",
@@ -1023,9 +1041,11 @@
       "SCHUL_NM": "부산삼육초등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "초",
       "FOND_SC_CODE": "사립",
       "SCHUL_KND_SC_CODE": "02",
       "ADRCD_NM": "부산광역시 금정구",
+      "SCHUL_CRSE_SC_VALUE": "2",
       "JU_ORG_NM": "부산광역시동래교육지원청",
       "ATPT_OFCDC_ORG_NM": "부산광역시교육청",
       "JU_ORG_CODE": "C100000202",
@@ -1073,9 +1093,11 @@
       "SCHUL_NM": "혜화초등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "초",
       "FOND_SC_CODE": "사립",
       "SCHUL_KND_SC_CODE": "02",
       "ADRCD_NM": "부산광역시 부산진구",
+      "SCHUL_CRSE_SC_VALUE": "2",
       "JU_ORG_NM": "부산광역시남부교육지원청",
       "ATPT_OFCDC_ORG_NM": "부산광역시교육청",
       "JU_ORG_CODE": "C100000175",
@@ -1175,9 +1197,11 @@
       "SCHUL_NM": "계성초등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "초",
       "FOND_SC_CODE": "사립",
       "SCHUL_KND_SC_CODE": "02",
       "ADRCD_NM": "대구광역시 수성구",
+      "SCHUL_CRSE_SC_VALUE": "2",
       "JU_ORG_NM": "대구광역시동부교육지원청",
       "ATPT_OFCDC_ORG_NM": "대구광역시교육청",
       "JU_ORG_CODE": "D100000171",
@@ -1225,9 +1249,11 @@
       "SCHUL_NM": "영신초등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "초",
       "FOND_SC_CODE": "사립",
       "SCHUL_KND_SC_CODE": "02",
       "ADRCD_NM": "인천광역시 동구",
+      "SCHUL_CRSE_SC_VALUE": "2",
       "JU_ORG_NM": "인천광역시남부교육지원청",
       "ATPT_OFCDC_ORG_NM": "인천광역시교육청",
       "JU_ORG_CODE": "E100000082",
@@ -1406,9 +1432,11 @@
       "SCHUL_NM": "광주삼육초등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "초",
       "FOND_SC_CODE": "사립",
       "SCHUL_KND_SC_CODE": "02",
       "ADRCD_NM": "광주광역시 남구",
+      "SCHUL_CRSE_SC_VALUE": "2",
       "JU_ORG_NM": "광주광역시서부교육지원청",
       "ATPT_OFCDC_ORG_NM": "광주광역시교육청",
       "JU_ORG_CODE": "F100000072",
@@ -1612,9 +1640,11 @@
       "SCHUL_NM": "원주삼육초등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "초",
       "FOND_SC_CODE": "사립",
       "SCHUL_KND_SC_CODE": "02",
       "ADRCD_NM": "강원특별자치도 춘천시",
+      "SCHUL_CRSE_SC_VALUE": "2",
       "JU_ORG_NM": "강원특별자치도춘천교육지원청",
       "ATPT_OFCDC_ORG_NM": "강원특별자치도교육청",
       "JU_ORG_CODE": "K100000257",
