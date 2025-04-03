@@ -1,5 +1,6 @@
 #아차차
 App/config.py
+Database/etc
 
 # data wrangling
 data.ipynb
