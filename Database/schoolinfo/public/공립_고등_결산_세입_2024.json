@@ -335,9 +335,11 @@
       "SCHUL_NM": "광남고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "서울특별시 광진구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "서울특별시교육청",
       "ATPT_OFCDC_ORG_NM": "서울특별시교육청",
       "JU_ORG_CODE": "B100000001",
@@ -527,9 +529,11 @@
       "SCHUL_NM": "당곡고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "서울특별시 영등포구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "서울특별시교육청",
       "ATPT_OFCDC_ORG_NM": "서울특별시교육청",
       "JU_ORG_CODE": "B100000001",
@@ -648,9 +652,11 @@
       "SCHUL_NM": "면목고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "서울특별시 강동구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "서울특별시교육청",
       "ATPT_OFCDC_ORG_NM": "서울특별시교육청",
       "JU_ORG_CODE": "B100000001",
@@ -888,9 +894,11 @@
       "SCHUL_NM": "석관고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "서울특별시 중구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "서울특별시교육청",
       "ATPT_OFCDC_ORG_NM": "서울특별시교육청",
       "JU_ORG_CODE": "B100000001",
@@ -954,14 +962,16 @@
       "AMT1": 2427021510,
       "ATPT_OFCDC_ORG_CODE": "B100000001",
       "LCTN_SC_CODE": "01",
-      "HS_KND_SC_NM": "자율고등학교",
+      "HS_KND_SC_NM": "일반고등학교",
       "BNHH_YN": "N",
       "SCHUL_NM": "수락고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "서울특별시 관악구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "서울특별시교육청",
       "ATPT_OFCDC_ORG_NM": "서울특별시교육청",
       "JU_ORG_CODE": "B100000001",
@@ -1005,9 +1015,11 @@
       "SCHUL_NM": "신목고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "서울특별시 서초구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "서울특별시교육청",
       "ATPT_OFCDC_ORG_NM": "서울특별시교육청",
       "JU_ORG_CODE": "B100000001",
@@ -1195,9 +1207,11 @@
       "SCHUL_NM": "오금고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "서울특별시 용산구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "서울특별시교육청",
       "ATPT_OFCDC_ORG_NM": "서울특별시교육청",
       "JU_ORG_CODE": "B100000001",
@@ -1241,9 +1255,11 @@
       "SCHUL_NM": "인헌고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "서울특별시 광진구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "서울특별시교육청",
       "ATPT_OFCDC_ORG_NM": "서울특별시교육청",
       "JU_ORG_CODE": "B100000001",
@@ -1431,9 +1447,11 @@
       "SCHUL_NM": "청담고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "서울특별시 동대문구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "서울특별시교육청",
       "ATPT_OFCDC_ORG_NM": "서울특별시교육청",
       "JU_ORG_CODE": "B100000001",
@@ -1550,9 +1568,11 @@
       "SCHUL_NM": "서울과학고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "서울특별시 서대문구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "서울특별시교육청",
       "ATPT_OFCDC_ORG_NM": "서울특별시교육청",
       "JU_ORG_CODE": "B100000001",
@@ -1815,9 +1835,11 @@
       "SCHUL_NM": "서울반도체고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "서울특별시 종로구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "서울특별시교육청",
       "ATPT_OFCDC_ORG_NM": "서울특별시교육청",
       "JU_ORG_CODE": "B100000001",
@@ -2358,9 +2380,11 @@
       "SCHUL_NM": "문정고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "서울특별시 구로구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "서울특별시교육청",
       "ATPT_OFCDC_ORG_NM": "서울특별시교육청",
       "JU_ORG_CODE": "B100000001",
@@ -2406,9 +2430,11 @@
       "SCHUL_NM": "구현고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "서울특별시 강북구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "서울특별시교육청",
       "ATPT_OFCDC_ORG_NM": "서울특별시교육청",
       "JU_ORG_CODE": "B100000001",
@@ -2623,9 +2649,11 @@
       "SCHUL_NM": "솔샘고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "서울특별시 강동구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "서울특별시교육청",
       "ATPT_OFCDC_ORG_NM": "서울특별시교육청",
       "JU_ORG_CODE": "B100000001",
@@ -2719,9 +2747,11 @@
       "SCHUL_NM": "수명고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "서울특별시 은평구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "서울특별시교육청",
       "ATPT_OFCDC_ORG_NM": "서울특별시교육청",
       "JU_ORG_CODE": "B100000001",
@@ -3245,9 +3275,11 @@
       "SCHUL_NM": "동래고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "부산광역시 동래구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "부산광역시교육청",
       "ATPT_OFCDC_ORG_NM": "부산광역시교육청",
       "JU_ORG_CODE": "C100000001",
@@ -3268,9 +3300,11 @@
       "SCHUL_NM": "동래원예고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "부산광역시 북구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "부산광역시교육청",
       "ATPT_OFCDC_ORG_NM": "부산광역시교육청",
       "JU_ORG_CODE": "C100000001",
@@ -3550,9 +3584,11 @@
       "SCHUL_NM": "개성고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "부산광역시 서구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "부산광역시교육청",
       "ATPT_OFCDC_ORG_NM": "부산광역시교육청",
       "JU_ORG_CODE": "C100000001",
@@ -3573,9 +3609,11 @@
       "SCHUL_NM": "부산서여자고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "부산광역시 사하구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "부산광역시교육청",
       "ATPT_OFCDC_ORG_NM": "부산광역시교육청",
       "JU_ORG_CODE": "C100000001",
@@ -3838,9 +3876,11 @@
       "SCHUL_NM": "부산체육고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "부산광역시 해운대구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "부산광역시교육청",
       "ATPT_OFCDC_ORG_NM": "부산광역시교육청",
       "JU_ORG_CODE": "C100000001",
@@ -4028,9 +4068,11 @@
       "SCHUL_NM": "충렬고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "부산광역시 해운대구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "부산광역시교육청",
       "ATPT_OFCDC_ORG_NM": "부산광역시교육청",
       "JU_ORG_CODE": "C100000001",
@@ -4170,9 +4212,11 @@
       "SCHUL_NM": "반여고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "부산광역시 연제구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "부산광역시교육청",
       "ATPT_OFCDC_ORG_NM": "부산광역시교육청",
       "JU_ORG_CODE": "C100000001",
@@ -4412,9 +4456,11 @@
       "SCHUL_NM": "경북대학교사범대학부설고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "대구광역시 서구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "대구광역시교육청",
       "ATPT_OFCDC_ORG_NM": "대구광역시교육청",
       "JU_ORG_CODE": "D100000001",
@@ -4481,9 +4527,11 @@
       "SCHUL_NM": "경북기계공업고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "대구광역시 중구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "대구광역시교육청",
       "ATPT_OFCDC_ORG_NM": "대구광역시교육청",
       "JU_ORG_CODE": "D100000001",
@@ -4499,7 +4547,7 @@
       "AMT1": 2141748470,
       "ATPT_OFCDC_ORG_CODE": "D100000001",
       "LCTN_SC_CODE": "03",
-      "HS_KND_SC_NM": "일반고등학교",
+      "HS_KND_SC_NM": "자율고등학교",
       "BNHH_YN": "N",
       "SCHUL_NM": "경북여자고등학교"
     },
@@ -4529,9 +4577,11 @@
       "SCHUL_NM": "구암고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "대구광역시 달성군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "대구광역시교육청",
       "ATPT_OFCDC_ORG_NM": "대구광역시교육청",
       "JU_ORG_CODE": "D100000001",
@@ -4648,9 +4698,11 @@
       "SCHUL_NM": "대구공업고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "대구광역시 수성구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "대구광역시교육청",
       "ATPT_OFCDC_ORG_NM": "대구광역시교육청",
       "JU_ORG_CODE": "D100000001",
@@ -4744,9 +4796,11 @@
       "SCHUL_NM": "대구상원고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "대구광역시 서구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "대구광역시교육청",
       "ATPT_OFCDC_ORG_NM": "대구광역시교육청",
       "JU_ORG_CODE": "D100000001",
@@ -4792,9 +4846,11 @@
       "SCHUL_NM": "대구과학기술고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "대구광역시 수성구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "대구광역시교육청",
       "ATPT_OFCDC_ORG_NM": "대구광역시교육청",
       "JU_ORG_CODE": "D100000001",
@@ -5101,9 +5157,11 @@
       "SCHUL_NM": "대구체육고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "대구광역시 달서구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "대구광역시교육청",
       "ATPT_OFCDC_ORG_NM": "대구광역시교육청",
       "JU_ORG_CODE": "D100000001",
@@ -5218,9 +5276,11 @@
       "SCHUL_NM": "강동고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "대구광역시 수성구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "대구광역시교육청",
       "ATPT_OFCDC_ORG_NM": "대구광역시교육청",
       "JU_ORG_CODE": "D100000001",
@@ -5241,9 +5301,11 @@
       "SCHUL_NM": "동문고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "대구광역시 수성구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "대구광역시교육청",
       "ATPT_OFCDC_ORG_NM": "대구광역시교육청",
       "JU_ORG_CODE": "D100000001",
@@ -5431,9 +5493,11 @@
       "SCHUL_NM": "비슬고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "대구광역시 북구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "대구광역시교육청",
       "ATPT_OFCDC_ORG_NM": "대구광역시교육청",
       "JU_ORG_CODE": "D100000001",
@@ -5527,9 +5591,11 @@
       "SCHUL_NM": "효령고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "국립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "인천광역시 중구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "교육부",
       "ATPT_OFCDC_ORG_NM": "인천광역시교육청",
       "JU_ORG_CODE": "A000000001",
@@ -5671,9 +5737,11 @@
       "SCHUL_NM": "검단고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "인천광역시 계양구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "인천광역시교육청",
       "ATPT_OFCDC_ORG_NM": "인천광역시교육청",
       "JU_ORG_CODE": "E100000001",
@@ -5901,9 +5969,11 @@
       "SCHUL_NM": "백령고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "인천광역시 서구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "인천광역시교육청",
       "ATPT_OFCDC_ORG_NM": "인천광역시교육청",
       "JU_ORG_CODE": "E100000001",
@@ -5924,9 +5994,11 @@
       "SCHUL_NM": "백석고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "인천광역시 부평구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "인천광역시교육청",
       "ATPT_OFCDC_ORG_NM": "인천광역시교육청",
       "JU_ORG_CODE": "E100000001",
@@ -6162,9 +6234,11 @@
       "SCHUL_NM": "서운고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "인천광역시 남동구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "인천광역시교육청",
       "ATPT_OFCDC_ORG_NM": "인천광역시교육청",
       "JU_ORG_CODE": "E100000001",
@@ -6185,9 +6259,11 @@
       "SCHUL_NM": "석정여자고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "인천광역시 미추홀구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "인천광역시교육청",
       "ATPT_OFCDC_ORG_NM": "인천광역시교육청",
       "JU_ORG_CODE": "E100000001",
@@ -6233,9 +6309,11 @@
       "SCHUL_NM": "인천비즈니스고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "인천광역시 연수구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "인천광역시교육청",
       "ATPT_OFCDC_ORG_NM": "인천광역시교육청",
       "JU_ORG_CODE": "E100000001",
@@ -6256,9 +6334,11 @@
       "SCHUL_NM": "연수고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "인천광역시 연수구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "인천광역시교육청",
       "ATPT_OFCDC_ORG_NM": "인천광역시교육청",
       "JU_ORG_CODE": "E100000001",
@@ -6304,9 +6384,11 @@
       "SCHUL_NM": "연평고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "인천광역시 중구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "인천광역시교육청",
       "ATPT_OFCDC_ORG_NM": "인천광역시교육청",
       "JU_ORG_CODE": "E100000001",
@@ -6653,9 +6735,11 @@
       "SCHUL_NM": "인천예술고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "인천광역시 미추홀구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "인천광역시교육청",
       "ATPT_OFCDC_ORG_NM": "인천광역시교육청",
       "JU_ORG_CODE": "E100000001",
@@ -6845,9 +6929,11 @@
       "SCHUL_NM": "학익고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "인천광역시 미추홀구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "인천광역시교육청",
       "ATPT_OFCDC_ORG_NM": "인천광역시교육청",
       "JU_ORG_CODE": "E100000001",
@@ -6891,9 +6977,11 @@
       "SCHUL_NM": "인천효성고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "인천광역시 서구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "인천광역시교육청",
       "ATPT_OFCDC_ORG_NM": "인천광역시교육청",
       "JU_ORG_CODE": "E100000001",
@@ -7079,9 +7167,11 @@
       "SCHUL_NM": "부개고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "인천광역시 부평구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "인천광역시교육청",
       "ATPT_OFCDC_ORG_NM": "인천광역시교육청",
       "JU_ORG_CODE": "E100000001",
@@ -7148,9 +7238,11 @@
       "SCHUL_NM": "도림고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "인천광역시 서구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "인천광역시교육청",
       "ATPT_OFCDC_ORG_NM": "인천광역시교육청",
       "JU_ORG_CODE": "E100000001",
@@ -7816,9 +7908,11 @@
       "SCHUL_NM": "광주과학고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "광주광역시 북구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "광주광역시교육청",
       "ATPT_OFCDC_ORG_NM": "광주광역시교육청",
       "JU_ORG_CODE": "F100000001",
@@ -7999,7 +8093,7 @@
       "AMT1": 2858142660,
       "ATPT_OFCDC_ORG_CODE": "F100000001",
       "LCTN_SC_CODE": "05",
-      "HS_KND_SC_NM": "자율고등학교",
+      "HS_KND_SC_NM": "일반고등학교",
       "BNHH_YN": "N",
       "SCHUL_NM": "광주제일고등학교"
     },
@@ -8511,9 +8605,11 @@
       "SCHUL_NM": "대전노은고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "대전광역시 서구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "대전광역시교육청",
       "ATPT_OFCDC_ORG_NM": "대전광역시교육청",
       "JU_ORG_CODE": "G100000001",
@@ -8557,9 +8653,11 @@
       "SCHUL_NM": "대전둔원고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "대전광역시 서구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "대전광역시교육청",
       "ATPT_OFCDC_ORG_NM": "대전광역시교육청",
       "JU_ORG_CODE": "G100000001",
@@ -8858,9 +8956,11 @@
       "SCHUL_NM": "충남고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "대전광역시 중구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "대전광역시교육청",
       "ATPT_OFCDC_ORG_NM": "대전광역시교육청",
       "JU_ORG_CODE": "G100000001",
@@ -8929,9 +9029,11 @@
       "SCHUL_NM": "한밭고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "대전광역시 유성구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "대전광역시교육청",
       "ATPT_OFCDC_ORG_NM": "대전광역시교육청",
       "JU_ORG_CODE": "G100000001",
@@ -9021,9 +9123,11 @@
       "SCHUL_NM": "대전괴정고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "대전광역시 유성구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "대전광역시교육청",
       "ATPT_OFCDC_ORG_NM": "대전광역시교육청",
       "JU_ORG_CODE": "G100000001",
@@ -9282,9 +9386,11 @@
       "SCHUL_NM": "방어진고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "울산광역시 남구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "울산광역시교육청",
       "ATPT_OFCDC_ORG_NM": "울산광역시교육청",
       "JU_ORG_CODE": "H100000001",
@@ -9399,9 +9505,11 @@
       "SCHUL_NM": "울산미용예술고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "울산광역시 남구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "울산광역시교육청",
       "ATPT_OFCDC_ORG_NM": "울산광역시교육청",
       "JU_ORG_CODE": "H100000001",
@@ -9954,9 +10062,11 @@
       "SCHUL_NM": "달천고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "울산광역시 북구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "울산광역시교육청",
       "ATPT_OFCDC_ORG_NM": "울산광역시교육청",
       "JU_ORG_CODE": "H100000001",
@@ -10048,9 +10158,11 @@
       "SCHUL_NM": "매곡고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "울산광역시 울주군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "울산광역시교육청",
       "ATPT_OFCDC_ORG_NM": "울산광역시교육청",
       "JU_ORG_CODE": "H100000001",
@@ -10121,9 +10233,11 @@
       "SCHUL_NM": "울산스포츠과학고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "울산광역시 중구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "울산광역시교육청",
       "ATPT_OFCDC_ORG_NM": "울산광역시교육청",
       "JU_ORG_CODE": "H100000001",
@@ -10215,9 +10329,11 @@
       "SCHUL_NM": "강동고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "세종특별자치시 ",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "세종특별자치시교육청",
       "ATPT_OFCDC_ORG_NM": "세종특별자치시교육청",
       "JU_ORG_CODE": "I100000001",
@@ -10258,7 +10374,7 @@
       "AMT1": 2174509330,
       "ATPT_OFCDC_ORG_CODE": "I100000001",
       "LCTN_SC_CODE": "08",
-      "HS_KND_SC_NM": "자율고등학교",
+      "HS_KND_SC_NM": "일반고등학교",
       "BNHH_YN": "N",
       "SCHUL_NM": "한솔고등학교"
     },
@@ -11358,9 +11474,11 @@
       "SCHUL_NM": "금곡고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경기도 용인시 기흥구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경기도용인교육지원청",
       "ATPT_OFCDC_ORG_NM": "경기도교육청",
       "JU_ORG_CODE": "J100000001",
@@ -11652,9 +11770,11 @@
       "SCHUL_NM": "도당고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경기도 동두천시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경기도동두천양주교육지원청",
       "ATPT_OFCDC_ORG_NM": "경기도교육청",
       "JU_ORG_CODE": "J100000001",
@@ -11700,9 +11820,11 @@
       "SCHUL_NM": "동안고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경기도 이천시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경기도이천교육지원청",
       "ATPT_OFCDC_ORG_NM": "경기도교육청",
       "JU_ORG_CODE": "J100000001",
@@ -12165,9 +12287,11 @@
       "SCHUL_NM": "부천여자고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경기도 부천시 원미구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경기도부천교육지원청",
       "ATPT_OFCDC_ORG_NM": "경기도교육청",
       "JU_ORG_CODE": "J100000001",
@@ -12505,9 +12629,11 @@
       "SCHUL_NM": "성남고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경기도 성남시 중원구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경기도성남교육지원청",
       "ATPT_OFCDC_ORG_NM": "경기도교육청",
       "JU_ORG_CODE": "J100000001",
@@ -13106,9 +13232,11 @@
       "SCHUL_NM": "안양고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경기도 안양시 만안구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경기도안양과천교육지원청",
       "ATPT_OFCDC_ORG_NM": "경기도교육청",
       "JU_ORG_CODE": "J100000001",
@@ -13200,9 +13328,11 @@
       "SCHUL_NM": "양지고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경기도 양평군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경기도양평교육지원청",
       "ATPT_OFCDC_ORG_NM": "경기도교육청",
       "JU_ORG_CODE": "J100000001",
@@ -13248,9 +13378,11 @@
       "SCHUL_NM": "양평고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경기도 여주시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경기도여주교육지원청",
       "ATPT_OFCDC_ORG_NM": "경기도교육청",
       "JU_ORG_CODE": "J100000001",
@@ -13417,9 +13549,11 @@
       "SCHUL_NM": "용인고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경기도 용인시 처인구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경기도용인교육지원청",
       "ATPT_OFCDC_ORG_NM": "경기도교육청",
       "JU_ORG_CODE": "J100000001",
@@ -13559,9 +13693,11 @@
       "SCHUL_NM": "율면고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경기도 시흥시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경기도시흥교육지원청",
       "ATPT_OFCDC_ORG_NM": "경기도교육청",
       "JU_ORG_CODE": "J100000001",
@@ -13949,9 +14085,11 @@
       "SCHUL_NM": "장안고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경기도 이천시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경기도이천교육지원청",
       "ATPT_OFCDC_ORG_NM": "경기도교육청",
       "JU_ORG_CODE": "J100000001",
@@ -14841,9 +14979,11 @@
       "SCHUL_NM": "풍덕고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경기도 하남시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경기도광주하남교육지원청",
       "ATPT_OFCDC_ORG_NM": "경기도교육청",
       "JU_ORG_CODE": "J100000001",
@@ -15377,9 +15517,11 @@
       "SCHUL_NM": "조원고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경기도 성남시 분당구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경기도성남교육지원청",
       "ATPT_OFCDC_ORG_NM": "경기도교육청",
       "JU_ORG_CODE": "J100000001",
@@ -15619,9 +15761,11 @@
       "SCHUL_NM": "단원고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경기도 시흥시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경기도시흥교육지원청",
       "ATPT_OFCDC_ORG_NM": "경기도교육청",
       "JU_ORG_CODE": "J100000001",
@@ -15767,9 +15911,11 @@
       "SCHUL_NM": "효양고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경기도 용인시 기흥구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경기도용인교육지원청",
       "ATPT_OFCDC_ORG_NM": "경기도교육청",
       "JU_ORG_CODE": "J100000001",
@@ -16157,9 +16303,11 @@
       "SCHUL_NM": "가좌고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경기도 양주시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경기도동두천양주교육지원청",
       "ATPT_OFCDC_ORG_NM": "경기도교육청",
       "JU_ORG_CODE": "J100000001",
@@ -16175,7 +16323,7 @@
       "AMT1": 2667168680,
       "ATPT_OFCDC_ORG_CODE": "J100000001",
       "LCTN_SC_CODE": "10",
-      "HS_KND_SC_NM": "일반고등학교",
+      "HS_KND_SC_NM": "자율고등학교",
       "BNHH_YN": "N",
       "SCHUL_NM": "양주고등학교"
     },
@@ -16599,9 +16747,11 @@
       "SCHUL_NM": "예당고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경기도 부천시 오정구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경기도부천교육지원청",
       "ATPT_OFCDC_ORG_NM": "경기도교육청",
       "JU_ORG_CODE": "J100000001",
@@ -16692,7 +16842,7 @@
       "AMT1": 2625899130,
       "ATPT_OFCDC_ORG_CODE": "J100000001",
       "LCTN_SC_CODE": "10",
-      "HS_KND_SC_NM": "일반고등학교",
+      "HS_KND_SC_NM": "자율고등학교",
       "BNHH_YN": "N",
       "SCHUL_NM": "와부고등학교"
     },
@@ -16887,9 +17037,11 @@
       "SCHUL_NM": "청덕고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경기도 시흥시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경기도시흥교육지원청",
       "ATPT_OFCDC_ORG_NM": "경기도교육청",
       "JU_ORG_CODE": "J100000001",
@@ -17765,9 +17917,11 @@
       "SCHUL_NM": "대화고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경기도 이천시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경기도이천교육지원청",
       "ATPT_OFCDC_ORG_NM": "경기도교육청",
       "JU_ORG_CODE": "J100000001",
@@ -18007,9 +18161,11 @@
       "SCHUL_NM": "군포중앙고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경기도 용인시 수지구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경기도용인교육지원청",
       "ATPT_OFCDC_ORG_NM": "경기도교육청",
       "JU_ORG_CODE": "J100000001",
@@ -18055,9 +18211,11 @@
       "SCHUL_NM": "솔터고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경기도 용인시 수지구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경기도용인교육지원청",
       "ATPT_OFCDC_ORG_NM": "경기도교육청",
       "JU_ORG_CODE": "J100000001",
@@ -18693,9 +18851,11 @@
       "SCHUL_NM": "한빛고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경기도 하남시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경기도광주하남교육지원청",
       "ATPT_OFCDC_ORG_NM": "경기도교육청",
       "JU_ORG_CODE": "J100000001",
@@ -18739,9 +18899,11 @@
       "SCHUL_NM": "태전고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경기도 용인시 처인구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경기도용인교육지원청",
       "ATPT_OFCDC_ORG_NM": "경기도교육청",
       "JU_ORG_CODE": "J100000001",
@@ -18856,9 +19018,11 @@
       "SCHUL_NM": "하길고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경기도 성남시 수정구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경기도성남교육지원청",
       "ATPT_OFCDC_ORG_NM": "경기도교육청",
       "JU_ORG_CODE": "J100000001",
@@ -19152,9 +19316,11 @@
       "SCHUL_NM": "옥빛고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경기도 용인시 처인구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경기도용인교육지원청",
       "ATPT_OFCDC_ORG_NM": "경기도교육청",
       "JU_ORG_CODE": "J100000001",
@@ -20049,9 +20215,11 @@
       "SCHUL_NM": "봉의고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "강원특별자치도 평창군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "강원특별자치도교육청",
       "ATPT_OFCDC_ORG_NM": "강원특별자치도교육청",
       "JU_ORG_CODE": "K100000001",
@@ -20166,9 +20334,11 @@
       "SCHUL_NM": "북평여자고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "강원특별자치도 화천군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "강원특별자치도교육청",
       "ATPT_OFCDC_ORG_NM": "강원특별자치도교육청",
       "JU_ORG_CODE": "K100000001",
@@ -20189,9 +20359,11 @@
       "SCHUL_NM": "사내고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "강원특별자치도 정선군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "강원특별자치도교육청",
       "ATPT_OFCDC_ORG_NM": "강원특별자치도교육청",
       "JU_ORG_CODE": "K100000001",
@@ -20235,9 +20407,11 @@
       "SCHUL_NM": "삼척고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "강원특별자치도 삼척시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "강원특별자치도교육청",
       "ATPT_OFCDC_ORG_NM": "강원특별자치도교육청",
       "JU_ORG_CODE": "K100000001",
@@ -20427,9 +20601,11 @@
       "SCHUL_NM": "신남고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "강원특별자치도 철원군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "강원특별자치도교육청",
       "ATPT_OFCDC_ORG_NM": "강원특별자치도교육청",
       "JU_ORG_CODE": "K100000001",
@@ -20519,9 +20695,11 @@
       "SCHUL_NM": "양구고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "강원특별자치도 양양군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "강원특별자치도교육청",
       "ATPT_OFCDC_ORG_NM": "강원특별자치도교육청",
       "JU_ORG_CODE": "K100000001",
@@ -20738,9 +20916,11 @@
       "SCHUL_NM": "원주여자고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "강원특별자치도 원주시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "강원특별자치도교육청",
       "ATPT_OFCDC_ORG_NM": "강원특별자치도교육청",
       "JU_ORG_CODE": "K100000001",
@@ -20882,9 +21062,11 @@
       "SCHUL_NM": "정선고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "강원특별자치도 정선군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "강원특별자치도교육청",
       "ATPT_OFCDC_ORG_NM": "강원특별자치도교육청",
       "JU_ORG_CODE": "K100000001",
@@ -20955,9 +21137,11 @@
       "SCHUL_NM": "주천고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "강원특별자치도 평창군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "강원특별자치도교육청",
       "ATPT_OFCDC_ORG_NM": "강원특별자치도교육청",
       "JU_ORG_CODE": "K100000001",
@@ -21220,9 +21404,11 @@
       "SCHUL_NM": "평창고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "강원특별자치도 정선군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "강원특별자치도교육청",
       "ATPT_OFCDC_ORG_NM": "강원특별자치도교육청",
       "JU_ORG_CODE": "K100000001",
@@ -21314,9 +21500,11 @@
       "SCHUL_NM": "홍천여자고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "강원특별자치도 홍천군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "강원특별자치도교육청",
       "ATPT_OFCDC_ORG_NM": "강원특별자치도교육청",
       "JU_ORG_CODE": "K100000001",
@@ -21531,9 +21719,11 @@
       "SCHUL_NM": "강원애니고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "강원특별자치도 원주시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "강원특별자치도교육청",
       "ATPT_OFCDC_ORG_NM": "강원특별자치도교육청",
       "JU_ORG_CODE": "K100000001",
@@ -21668,7 +21858,7 @@
       "AMT1": 1767276870,
       "ATPT_OFCDC_ORG_CODE": "M100000001",
       "LCTN_SC_CODE": "12",
-      "HS_KND_SC_NM": "일반고등학교",
+      "HS_KND_SC_NM": "자율고등학교",
       "BNHH_YN": "N",
       "SCHUL_NM": "괴산고등학교"
     },
@@ -21746,9 +21936,11 @@
       "SCHUL_NM": "단양고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "충청북도 단양군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "충청북도교육청",
       "ATPT_OFCDC_ORG_NM": "충청북도교육청",
       "JU_ORG_CODE": "M100000001",
@@ -21819,9 +22011,11 @@
       "SCHUL_NM": "보은여자고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "충청북도 보은군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "충청북도교육청",
       "ATPT_OFCDC_ORG_NM": "충청북도교육청",
       "JU_ORG_CODE": "M100000001",
@@ -21959,9 +22153,11 @@
       "SCHUL_NM": "오창고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "충청북도 옥천군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "충청북도교육청",
       "ATPT_OFCDC_ORG_NM": "충청북도교육청",
       "JU_ORG_CODE": "M100000001",
@@ -22007,9 +22203,11 @@
       "SCHUL_NM": "충북산업과학고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "충청북도 음성군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "충청북도교육청",
       "ATPT_OFCDC_ORG_NM": "충청북도교육청",
       "JU_ORG_CODE": "M100000001",
@@ -22126,9 +22324,11 @@
       "SCHUL_NM": "제천제일고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "충청북도 제천시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "충청북도교육청",
       "ATPT_OFCDC_ORG_NM": "충청북도교육청",
       "JU_ORG_CODE": "M100000001",
@@ -22387,9 +22587,11 @@
       "SCHUL_NM": "청주농업고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "충청북도 청주시 청원구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "충청북도교육청",
       "ATPT_OFCDC_ORG_NM": "충청북도교육청",
       "JU_ORG_CODE": "M100000001",
@@ -22433,9 +22635,11 @@
       "SCHUL_NM": "청주외국어고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "충청북도 청주시 서원구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "충청북도교육청",
       "ATPT_OFCDC_ORG_NM": "충청북도교육청",
       "JU_ORG_CODE": "M100000001",
@@ -22573,9 +22777,11 @@
       "SCHUL_NM": "충북상업정보고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "충청북도 청주시 서원구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "충청북도교육청",
       "ATPT_OFCDC_ORG_NM": "충청북도교육청",
       "JU_ORG_CODE": "M100000001",
@@ -22907,9 +23113,11 @@
       "SCHUL_NM": "청원고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "충청북도 청주시 서원구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "충청북도교육청",
       "ATPT_OFCDC_ORG_NM": "충청북도교육청",
       "JU_ORG_CODE": "M100000001",
@@ -22953,9 +23161,11 @@
       "SCHUL_NM": "봉명고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "충청북도 청주시 흥덕구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "충청북도교육청",
       "ATPT_OFCDC_ORG_NM": "충청북도교육청",
       "JU_ORG_CODE": "M100000001",
@@ -22971,7 +23181,7 @@
       "AMT1": 2286042630,
       "ATPT_OFCDC_ORG_CODE": "M100000001",
       "LCTN_SC_CODE": "12",
-      "HS_KND_SC_NM": "자율고등학교",
+      "HS_KND_SC_NM": "일반고등학교",
       "BNHH_YN": "N",
       "SCHUL_NM": "오송고등학교"
     },
@@ -23074,9 +23284,11 @@
       "SCHUL_NM": "동성고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "국립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "충청남도 공주시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "충청남도교육청",
       "ATPT_OFCDC_ORG_NM": "충청남도교육청",
       "JU_ORG_CODE": "A000000001",
@@ -23189,9 +23401,11 @@
       "SCHUL_NM": "홍성공업고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "충청남도 공주시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "충청남도교육청",
       "ATPT_OFCDC_ORG_NM": "충청남도교육청",
       "JU_ORG_CODE": "N100000001",
@@ -23404,9 +23618,11 @@
       "SCHUL_NM": "논산고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "충청남도 논산시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "충청남도교육청",
       "ATPT_OFCDC_ORG_NM": "충청남도교육청",
       "JU_ORG_CODE": "N100000001",
@@ -23450,9 +23666,11 @@
       "SCHUL_NM": "논산여자고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "충청남도 당진시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "충청남도교육청",
       "ATPT_OFCDC_ORG_NM": "충청남도교육청",
       "JU_ORG_CODE": "N100000001",
@@ -23663,9 +23881,11 @@
       "SCHUL_NM": "목천고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "충청남도 천안시 동남구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "충청남도교육청",
       "ATPT_OFCDC_ORG_NM": "충청남도교육청",
       "JU_ORG_CODE": "N100000001",
@@ -23686,9 +23906,11 @@
       "SCHUL_NM": "병천고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "충청남도 서산시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "충청남도교육청",
       "ATPT_OFCDC_ORG_NM": "충청남도교육청",
       "JU_ORG_CODE": "N100000001",
@@ -23759,9 +23981,11 @@
       "SCHUL_NM": "부여여자고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "충청남도 부여군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "충청남도교육청",
       "ATPT_OFCDC_ORG_NM": "충청남도교육청",
       "JU_ORG_CODE": "N100000001",
@@ -24020,9 +24244,11 @@
       "SCHUL_NM": "예산여자고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "충청남도 예산군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "충청남도교육청",
       "ATPT_OFCDC_ORG_NM": "충청남도교육청",
       "JU_ORG_CODE": "N100000001",
@@ -24586,9 +24812,11 @@
       "SCHUL_NM": "한국식품마이스터고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "충청남도 홍성군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "충청남도교육청",
       "ATPT_OFCDC_ORG_NM": "충청남도교육청",
       "JU_ORG_CODE": "N100000001",
@@ -24632,9 +24860,11 @@
       "SCHUL_NM": "홍성여자고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "충청남도 천안시 서북구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "충청남도교육청",
       "ATPT_OFCDC_ORG_NM": "충청남도교육청",
       "JU_ORG_CODE": "N100000001",
@@ -24820,9 +25050,11 @@
       "SCHUL_NM": "천안청수고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "충청남도 천안시 서북구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "충청남도교육청",
       "ATPT_OFCDC_ORG_NM": "충청남도교육청",
       "JU_ORG_CODE": "N100000001",
@@ -24843,9 +25075,11 @@
       "SCHUL_NM": "천안업성고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "충청남도 천안시 서북구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "충청남도교육청",
       "ATPT_OFCDC_ORG_NM": "충청남도교육청",
       "JU_ORG_CODE": "N100000001",
@@ -24912,9 +25146,11 @@
       "SCHUL_NM": "설화고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "충청남도 청양군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "충청남도교육청",
       "ATPT_OFCDC_ORG_NM": "충청남도교육청",
       "JU_ORG_CODE": "N100000001",
@@ -25129,9 +25365,11 @@
       "SCHUL_NM": "군산고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "전북특별자치도 군산시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "전북특별자치도교육청",
       "ATPT_OFCDC_ORG_NM": "전북특별자치도교육청",
       "JU_ORG_CODE": "P100000001",
@@ -25580,9 +25818,11 @@
       "SCHUL_NM": "서림고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "전북특별자치도 장수군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "전북특별자치도교육청",
       "ATPT_OFCDC_ORG_NM": "전북특별자치도교육청",
       "JU_ORG_CODE": "P100000001",
@@ -25603,9 +25843,11 @@
       "SCHUL_NM": "산서고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "전북특별자치도 완주군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "전북특별자치도교육청",
       "ATPT_OFCDC_ORG_NM": "전북특별자치도교육청",
       "JU_ORG_CODE": "P100000001",
@@ -25649,9 +25891,11 @@
       "SCHUL_NM": "설천고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "전북특별자치도 전주시 덕진구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "전북특별자치도교육청",
       "ATPT_OFCDC_ORG_NM": "전북특별자치도교육청",
       "JU_ORG_CODE": "P100000001",
@@ -26081,9 +26325,11 @@
       "SCHUL_NM": "전북체육고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "전북특별자치도 전주시 완산구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "전북특별자치도교육청",
       "ATPT_OFCDC_ORG_NM": "전북특별자치도교육청",
       "JU_ORG_CODE": "P100000001",
@@ -26367,9 +26613,11 @@
       "SCHUL_NM": "칠보고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "전북특별자치도 전주시 완산구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "전북특별자치도교육청",
       "ATPT_OFCDC_ORG_NM": "전북특별자치도교육청",
       "JU_ORG_CODE": "P100000001",
@@ -26630,9 +26878,11 @@
       "SCHUL_NM": "고금고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "전라남도 고흥군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "전라남도교육청",
       "ATPT_OFCDC_ORG_NM": "전라남도교육청",
       "JU_ORG_CODE": "Q100000001",
@@ -26747,9 +26997,11 @@
       "SCHUL_NM": "전남조리과학고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "전라남도 광양시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "전라남도교육청",
       "ATPT_OFCDC_ORG_NM": "전라남도교육청",
       "JU_ORG_CODE": "Q100000001",
@@ -26864,9 +27116,11 @@
       "SCHUL_NM": "구림공업고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "전라남도 나주시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "전라남도교육청",
       "ATPT_OFCDC_ORG_NM": "전라남도교육청",
       "JU_ORG_CODE": "Q100000001",
@@ -26887,9 +27141,11 @@
       "SCHUL_NM": "나주고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "전라남도 나주시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "전라남도교육청",
       "ATPT_OFCDC_ORG_NM": "전라남도교육청",
       "JU_ORG_CODE": "Q100000001",
@@ -26910,9 +27166,11 @@
       "SCHUL_NM": "나주상업고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "전라남도 완도군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "전라남도교육청",
       "ATPT_OFCDC_ORG_NM": "전라남도교육청",
       "JU_ORG_CODE": "Q100000001",
@@ -27171,9 +27429,11 @@
       "SCHUL_NM": "무안고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "전라남도 보성군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "전라남도교육청",
       "ATPT_OFCDC_ORG_NM": "전라남도교육청",
       "JU_ORG_CODE": "Q100000001",
@@ -27313,9 +27573,11 @@
       "SCHUL_NM": "봉황고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "전라남도 여수시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "전라남도교육청",
       "ATPT_OFCDC_ORG_NM": "전라남도교육청",
       "JU_ORG_CODE": "Q100000001",
@@ -27384,9 +27646,11 @@
       "SCHUL_NM": "진도국악고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "전라남도 강진군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "전라남도교육청",
       "ATPT_OFCDC_ORG_NM": "전라남도교육청",
       "JU_ORG_CODE": "Q100000001",
@@ -28595,9 +28859,11 @@
       "SCHUL_NM": "화순이양고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "전라남도 구례군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "전라남도교육청",
       "ATPT_OFCDC_ORG_NM": "전라남도교육청",
       "JU_ORG_CODE": "Q100000001",
@@ -28643,9 +28909,11 @@
       "SCHUL_NM": "곡성고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "전라남도 무안군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "전라남도교육청",
       "ATPT_OFCDC_ORG_NM": "전라남도교육청",
       "JU_ORG_CODE": "Q100000001",
@@ -28829,9 +29097,11 @@
       "SCHUL_NM": "순천복성고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "전라남도 곡성군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "전라남도교육청",
       "ATPT_OFCDC_ORG_NM": "전라남도교육청",
       "JU_ORG_CODE": "Q100000001",
@@ -28923,9 +29193,11 @@
       "SCHUL_NM": "구미전자공업고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경상북도 문경시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경상북도교육청",
       "ATPT_OFCDC_ORG_NM": "경상북도교육청",
       "JU_ORG_CODE": "R100000001",
@@ -29271,9 +29543,11 @@
       "SCHUL_NM": "계림고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경상북도 고령군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경상북도교육청",
       "ATPT_OFCDC_ORG_NM": "경상북도교육청",
       "JU_ORG_CODE": "R100000001",
@@ -29784,9 +30058,11 @@
       "SCHUL_NM": "상주여자고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경상북도 구미시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경상북도교육청",
       "ATPT_OFCDC_ORG_NM": "경상북도교육청",
       "JU_ORG_CODE": "R100000001",
@@ -29976,9 +30252,11 @@
       "SCHUL_NM": "안동여자고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경상북도 칠곡군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경상북도교육청",
       "ATPT_OFCDC_ORG_NM": "경상북도교육청",
       "JU_ORG_CODE": "R100000001",
@@ -29999,9 +30277,11 @@
       "SCHUL_NM": "약목고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경상북도 영덕군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경상북도교육청",
       "ATPT_OFCDC_ORG_NM": "경상북도교육청",
       "JU_ORG_CODE": "R100000001",
@@ -30766,9 +31046,11 @@
       "SCHUL_NM": "한국해양마이스터고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경상북도 의성군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경상북도교육청",
       "ATPT_OFCDC_ORG_NM": "경상북도교육청",
       "JU_ORG_CODE": "R100000001",
@@ -30937,9 +31219,11 @@
       "SCHUL_NM": "상모고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경상북도 구미시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경상북도교육청",
       "ATPT_OFCDC_ORG_NM": "경상북도교육청",
       "JU_ORG_CODE": "R100000001",
@@ -31160,9 +31444,11 @@
       "SCHUL_NM": "구미산동고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "국립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경상남도 진주시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경상남도교육청",
       "ATPT_OFCDC_ORG_NM": "경상남도교육청",
       "JU_ORG_CODE": "A000000001",
@@ -31880,9 +32166,11 @@
       "SCHUL_NM": "마산가포고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경상남도 창원시 마산합포구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경상남도교육청",
       "ATPT_OFCDC_ORG_NM": "경상남도교육청",
       "JU_ORG_CODE": "S100000001",
@@ -32258,9 +32546,11 @@
       "SCHUL_NM": "안의고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경상남도 합천군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경상남도교육청",
       "ATPT_OFCDC_ORG_NM": "경상남도교육청",
       "JU_ORG_CODE": "S100000001",
@@ -32740,9 +33030,11 @@
       "SCHUL_NM": "창원기계공업고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경상남도 창원시 성산구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경상남도교육청",
       "ATPT_OFCDC_ORG_NM": "경상남도교육청",
       "JU_ORG_CODE": "S100000001",
@@ -32832,9 +33124,11 @@
       "SCHUL_NM": "창원여자고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경상남도 창원시 성산구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경상남도교육청",
       "ATPT_OFCDC_ORG_NM": "경상남도교육청",
       "JU_ORG_CODE": "S100000001",
@@ -33024,9 +33318,11 @@
       "SCHUL_NM": "하동고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경상남도 함안군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경상남도교육청",
       "ATPT_OFCDC_ORG_NM": "경상남도교육청",
       "JU_ORG_CODE": "S100000001",
@@ -33070,9 +33366,11 @@
       "SCHUL_NM": "함양고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경상남도 함양군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경상남도교육청",
       "ATPT_OFCDC_ORG_NM": "경상남도교육청",
       "JU_ORG_CODE": "S100000001",
@@ -33116,9 +33414,11 @@
       "SCHUL_NM": "합천고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경상남도 창원시 마산합포구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경상남도교육청",
       "ATPT_OFCDC_ORG_NM": "경상남도교육청",
       "JU_ORG_CODE": "S100000001",
@@ -33139,9 +33439,11 @@
       "SCHUL_NM": "합포고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경상남도 창원시 의창구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경상남도교육청",
       "ATPT_OFCDC_ORG_NM": "경상남도교육청",
       "JU_ORG_CODE": "S100000001",
@@ -33233,9 +33535,11 @@
       "SCHUL_NM": "김해대청고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경상남도 양산시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경상남도교육청",
       "ATPT_OFCDC_ORG_NM": "경상남도교육청",
       "JU_ORG_CODE": "S100000001",
@@ -33279,9 +33583,11 @@
       "SCHUL_NM": "창원명곡고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경상남도 창원시 마산회원구",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경상남도교육청",
       "ATPT_OFCDC_ORG_NM": "경상남도교육청",
       "JU_ORG_CODE": "S100000001",
@@ -33473,9 +33779,11 @@
       "SCHUL_NM": "물금고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경상남도 거제시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경상남도교육청",
       "ATPT_OFCDC_ORG_NM": "경상남도교육청",
       "JU_ORG_CODE": "S100000001",
@@ -33569,9 +33877,11 @@
       "SCHUL_NM": "진해용원고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경상남도 김해시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경상남도교육청",
       "ATPT_OFCDC_ORG_NM": "경상남도교육청",
       "JU_ORG_CODE": "S100000001",
@@ -33688,9 +33998,11 @@
       "SCHUL_NM": "김해율하고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경상남도 양산시",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경상남도교육청",
       "ATPT_OFCDC_ORG_NM": "경상남도교육청",
       "JU_ORG_CODE": "S100000001",
@@ -33807,9 +34119,11 @@
       "SCHUL_NM": "김해수남고등학교"
     },
     {
+      "SCHUL_CRSE_SC_VALUE_NM": "고",
       "FOND_SC_CODE": "공립",
       "SCHUL_KND_SC_CODE": "04",
       "ADRCD_NM": "경상남도 산청군",
+      "SCHUL_CRSE_SC_VALUE": "4",
       "JU_ORG_NM": "경상남도교육청",
       "ATPT_OFCDC_ORG_NM": "경상남도교육청",
       "JU_ORG_CODE": "S100000001",

@@ -6,7 +6,7 @@ router = APIRouter(prefix="/schoolinfo", tags=["Batch Download"])
 
 BASE_URL = "http://localhost:8000"
 ENDPOINTS = {
-    "public": "/schoolinfo/budget",
+    "public": "/publicschool/budget",
     "private": "/privateschool/budget"
 }
 

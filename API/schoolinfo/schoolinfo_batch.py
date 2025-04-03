@@ -6,7 +6,7 @@ BASE_URL = "http://localhost:8000"
 
 # ▶︎ API 경로
 ENDPOINTS = {
-    "공립": "/schoolinfo/budget",
+    "공립": "/publicschool/budget",
     "사립": "/privateschool/budget"
 }
 
