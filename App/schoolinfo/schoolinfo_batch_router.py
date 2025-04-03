@@ -18,7 +18,7 @@ def run_batch_download(type: str = Query("both", enum=["public", "private", "bot
 
     years = [2022, 2023, 2024]
     schul_codes = ["02", "03", "04"]
-    depth1 = ["10", "20"]
+    depth1 = ["10"]#, "20"]
     depth2 = ["1", "2", "3", "4"]
 
     types_to_run = ["public", "private"] if type == "both" else [type]
@@ -29,8 +29,11 @@ def run_batch_download(type: str = Query("both", enum=["public", "private", "bot
 
         for year in years:
             for code in schul_codes:
-                for d1 in depth1:
-                    for d2 in depth2:
+                for d1 in depth1:  # depthNo
+                    for d2 in depth2:  # depthNo2
+                        # 🚨 유효하지 않은 조합은 스킵
+                        if (d1 == "10" and d2 not in ["1", "2"]) or (d1 == "20" and d2 not in ["3", "4"]):
+                            continue
                         payload = {
                             "pbanYr": year,
                             "schulKndCode": code,
