@@ -18,7 +18,7 @@ def run_batch_download(type: str = Query("both", enum=["public", "private", "bot
 
     years = [2022, 2023, 2024]
     schul_codes = ["02", "03", "04"]
-    depth1 = ["10"]#, "20"]
+    depth1 = ["10", "20"]
     depth2 = ["1", "2", "3", "4"]
 
     types_to_run = ["public", "private"] if type == "both" else [type]
