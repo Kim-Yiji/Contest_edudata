@@ -7,6 +7,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from dotenv import load_dotenv
 import os
 import time
+import pandas as pd
+import glob
 
 ### 🔧 사용자 설정
 NEWS_KEYWORD = "(교육부)"  # 분석 키워드
@@ -23,12 +25,15 @@ USER_PASSWORD = os.getenv("BIGKINDS_PASSWORD")
 
 ### 🌐 크롬 드라이버 설정
 options = webdriver.ChromeOptions()
+download_path_abs = os.path.abspath(download_path)
 prefs = {
-    "download.default_directory": download_path,
+    "download.default_directory": download_path_abs,
     "download.prompt_for_download": False,
-    "directory_upgrade": True,
-    "safebrowsing.enabled": True
+    "download.directory_upgrade": True,
+    "safebrowsing.enabled": True,
+    "profile.default_content_settings.popups": 0
 }
+print(f"설정된 다운로드 경로: {download_path_abs}")
 options.add_experimental_option("prefs", prefs)
 options.add_experimental_option("detach", True)
 options.add_argument("--start-maximized")
@@ -76,6 +81,32 @@ def login(driver, wait, email, password):
     print("✅ 로그인 완료")
     time.sleep(3)
 
+def wait_for_download(directory, timeout=60):
+    """다운로드가 완료될 때까지 대기하는 함수"""
+    print(f"다운로드 대기 시작... ({directory})")
+    seconds = 0
+    while seconds < timeout:
+        files = os.listdir(directory)
+        
+        # 진행 중인 다운로드 파일 확인
+        if any(fname.endswith('.crdownload') for fname in files):
+            print("다운로드 진행 중...")
+            time.sleep(1)
+            seconds += 1
+            continue
+            
+        # 완료된 엑셀 파일 확인
+        excel_files = [f for f in files if f.endswith(('.xlsx', '.xls'))]
+        if excel_files:
+            print(f"다운로드 완료! 발견된 파일: {excel_files}")
+            return True
+            
+        print(f"파일 대기 중... ({seconds}초)")
+        time.sleep(1)
+        seconds += 1
+    
+    return False
+
 ### 🚀 전체 자동화 흐름 시작
 driver.get("https://www.bigkinds.or.kr/v2/news/index.do")
 
@@ -119,8 +150,34 @@ time.sleep(1.5)
 driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 time.sleep(0.5)
 
+# 엑셀 다운로드 버튼 클릭
 download_button = wait.until(EC.element_to_be_clickable((
     By.XPATH, '//button[contains(@class, "news-download-btn") and contains(text(), "엑셀 다운로드")]'
 )))
 download_button.click()
 print("📥 '엑셀 다운로드' 버튼 클릭 완료")
+
+# 다운로드 완료 대기
+if wait_for_download(download_path):
+    print("✅ 파일 다운로드 완료")
+    
+    # downloads 폴더에서 가장 최근 엑셀 파일 찾기
+    excel_files = glob.glob(os.path.join(download_path, "*.xlsx")) + glob.glob(os.path.join(download_path, "*.xls"))
+    if excel_files:
+        latest_file = max(excel_files, key=os.path.getctime)
+        print(f"찾은 최신 엑셀 파일: {latest_file}")
+        
+        # 엑셀 파일을 CSV로 변환
+        df = pd.read_excel(latest_file)
+        csv_filename = os.path.splitext(latest_file)[0] + '.csv'
+        df.to_csv(csv_filename, index=False, encoding='utf-8-sig')
+        
+        print(f"✅ CSV 파일 생성 완료: {os.path.basename(csv_filename)}")
+        
+        # 원본 엑셀 파일 삭제
+        os.remove(latest_file)
+        print(f"🗑 원본 엑셀 파일 삭제 완료: {os.path.basename(latest_file)}")
+    else:
+        print("❌ 다운로드된 엑셀 파일을 찾을 수 없습니다.")
+else:
+    print("❌ 파일 다운로드 시간 초과")
