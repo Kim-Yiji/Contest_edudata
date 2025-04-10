@@ -12,7 +12,7 @@ import glob
 
 ### 🔧 사용자 설정
 NEWS_KEYWORD = "(교육부)"  # 분석 키워드
-DOWNLOAD_DIR_NAME = "downloads"  # 다운로드 폴더명 (현재 작업 디렉토리 기준)
+DOWNLOAD_DIR_NAME = "NewsData"  # 다운로드 폴더명 (현재 작업 디렉토리 기준)
 
 ### 💾 다운로드 경로 설정
 download_path = os.path.join(os.getcwd(), DOWNLOAD_DIR_NAME)
