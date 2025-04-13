@@ -67,7 +67,7 @@ def preprocess_news_data(input_file, output_file):
 
 if __name__ == "__main__":
     # 사용자 입력 받기
-    input_file = input("전처리할 파일 경로를 입력하세요 (예: NewsAnalysis/NewsData/Raw/20250312-20250412.csv): ")
+    input_file = input("전처리할 데이터의 파일 경로를 입력하세요 (예: NewsAnalysis/NewsData/Raw/20250312-20250412.csv): ")
     
     # 입력 파일 존재 여부 확인
     if not os.path.exists(input_file):

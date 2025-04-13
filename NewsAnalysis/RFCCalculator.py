@@ -9,8 +9,6 @@ from tqdm import tqdm
 import re
 import os
 import matplotlib.font_manager as fm
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
 
 # 정책 강도 키워드 사전
 POLICY_KEYWORDS = {
@@ -200,47 +198,46 @@ def calculate_rfc_scores(classification_df):
     # 결과 저장
     rfc_df.to_csv(output_file, index=False, encoding='utf-8-sig')
     
-    print("인터랙티브 그래프 생성 중...")
-    # 인터랙티브 그래프 생성
-    categories = [score['대분류'] for score in rfc_scores]
-    rfc_scores_100 = [score['RFC_Score'] * 100 for score in rfc_scores]
-    recency_scores_100 = [score['Recency_Score'] * 100 for score in rfc_scores]
-    frequency_scores_100 = [score['Frequency_Score'] * 100 for score in rfc_scores]
-    criticality_scores_100 = [score['Criticality_Score'] * 100 for score in rfc_scores]
+    print("그래프 생성 중...")
+    # seaborn 그래프 생성
+    plt.figure(figsize=(15, 8))
+    sns.set_style("whitegrid")
     
-    # Plotly 그래프 생성
-    fig = go.Figure()
+    # RFC 점수 기준으로 정렬
+    rfc_df = rfc_df.sort_values('RFC_Score', ascending=True)
     
-    # RFC 점수 바
-    fig.add_trace(go.Bar(
-        x=categories,
-        y=rfc_scores_100,
-        name='RFC Score',
-        hovertemplate='<b>%{x}</b><br>' +
-                     'RFC Score: %{y:.1f}점<br>' +
-                     'Recency: %{customdata[0]:.1f}점<br>' +
-                     'Frequency: %{customdata[1]:.1f}점<br>' +
-                     'Criticality: %{customdata[2]:.1f}점<extra></extra>',
-        customdata=np.column_stack((recency_scores_100, frequency_scores_100, criticality_scores_100)),
-        marker_color='rgba(55, 128, 191, 0.7)'
-    ))
+    # 바 그래프 생성
+    bars = plt.barh(rfc_df['대분류'], rfc_df['RFC_Score'], color='skyblue')
     
-    # 그래프 레이아웃 설정
-    fig.update_layout(
-        title='대분류별 RFC 점수 (100점 만점)',
-        xaxis_title='대분류',
-        yaxis_title='점수',
-        yaxis_range=[0, 100],
-        hovermode='x unified',
-        showlegend=False,
-        font=dict(
-            family="AppleGothic",
-            size=12
-        )
-    )
+    # 각 막대에 점수 정보 표시
+    for i, bar in enumerate(bars):
+        width = bar.get_width()
+        r_score = rfc_df['Recency_Score'].iloc[i]
+        f_score = rfc_df['Frequency_Score'].iloc[i]
+        c_score = rfc_df['Criticality_Score'].iloc[i]
+        
+        # 레이블 텍스트 생성
+        label_text = f'RFC: {width:.2f}\nR: {r_score:.2f}\nF: {f_score:.2f}\nC: {c_score:.2f}'
+        plt.text(width, i, label_text, 
+                 ha='left', va='center', 
+                 fontproperties='AppleGothic',
+                 fontsize=9)
+    
+    plt.title('대분류별 RFC 점수 분포', fontsize=14, pad=20, fontproperties='AppleGothic')
+    plt.xlabel('RFC 점수', fontsize=12, fontproperties='AppleGothic')
+    plt.ylabel('대분류', fontsize=12, fontproperties='AppleGothic')
+    
+    # y축 레이블의 폰트 설정
+    for label in plt.gca().get_yticklabels():
+        label.set_fontproperties('AppleGothic')
+    
+    # 그래프 간격 조정
+    plt.tight_layout()
     
     # 그래프 저장
-    fig.write_html(plot_file)
+    plt.savefig(plot_file, dpi=300, bbox_inches='tight', facecolor='white')
+    plt.close()
+    
     print("완료!")
     
     return rfc_df
@@ -281,13 +278,13 @@ if __name__ == "__main__":
     date_match = re.search(r'\d{8}-\d{8}', input_file)
     if date_match:
         date_str = date_match.group()
-        output_file = os.path.join(rfc_dir, f"RFC_{date_str}.csv")
-        plot_file = os.path.join(rfc_dir, f"RFC_{date_str}_stats.html")
+        output_file = os.path.join(rfc_dir, f"RFCScore_{date_str}.csv")
+        plot_file = os.path.join(rfc_dir, f"RFCScoreGraph_{date_str}.png")
     else:
         # 날짜가 없는 경우 원본 파일명 사용
         base_name = os.path.basename(input_file)
-        output_file = os.path.join(rfc_dir, f"RFC_{base_name}")
-        plot_file = os.path.join(rfc_dir, f"RFC_{base_name.replace('.csv', '_stats.html')}")
+        output_file = os.path.join(rfc_dir, f"RFCScore_{os.path.splitext(base_name)[0]}.csv")
+        plot_file = os.path.join(rfc_dir, f"RFCScoreGraph_{os.path.splitext(base_name)[0]}.png")
 
     print(f"\n입력 파일: {input_file}")
     print(f"출력 파일: {output_file}")

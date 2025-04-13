@@ -30,7 +30,7 @@ plt.rcParams['ytick.labelsize'] = 10
 plt.rcParams['figure.titlesize'] = 14
 
 # 사용자 입력 받기
-input_file = input("분류할 파일 경로를 입력하세요 (예: NewsAnalysis/NewsData/Preprocessed/(pre)20250312-20250412.csv): ")
+input_file = input("분류할 파일 경로를 입력하세요 (예: NewsAnalysis/NewsData/Preprocessed/Preprocessed_20250312-20250412.csv): ")
 
 # 입력 파일 존재 여부 확인
 if not os.path.exists(input_file):
@@ -46,10 +46,12 @@ date_match = re.search(r'\d{8}-\d{8}', input_file)
 if date_match:
     date_str = date_match.group()
     output_file = os.path.join(classified_dir, f"Classified_{date_str}.csv")
+    plot_file = os.path.join(classified_dir, f"Classified_Graph_{date_str}.png")
 else:
     # 날짜가 없는 경우 원본 파일명 사용
     base_name = os.path.basename(input_file)
-    output_file = os.path.join(classified_dir, f"Classified_{base_name}")
+    output_file = os.path.join(classified_dir, f"Classified_{os.path.splitext(base_name)[0]}.csv")
+    plot_file = os.path.join(classified_dir, f"Classified_Graph_{os.path.splitext(base_name)[0]}.png")
 
 print(f"\n입력 파일: {input_file}")
 print(f"출력 파일: {output_file}")
@@ -74,12 +76,11 @@ print("데이터 로딩 중...")
 news_df = pd.read_csv(input_file, encoding='utf-8')
 
 # 예산 항목 데이터 로드
-budget_keywords_df = pd.read_csv('NewsAnalysis/세부항목예시별 LLM기반 키워드확장.csv', encoding='utf-8')
-budget_items_df = pd.read_csv('NewsAnalysis/세출예산항목.csv', encoding='utf-8')
+budget_keywords_df = pd.read_csv('NewsAnalysis/BaseData/세부항목예시별 LLM기반 키워드확장.csv', encoding='utf-8')
 
-# 중분류와 대분류 정보 매핑 생성
-subcategory_to_middle = dict(zip(budget_items_df['소분류'], budget_items_df['중분류']))
-subcategory_to_major = dict(zip(budget_items_df['소분류'], budget_items_df['대분류']))
+# 중분류와 대분류 정보 매핑 생성 (세부항목예시별 LLM기반 키워드확장.csv에서 직접 사용)
+subcategory_to_middle = dict(zip(budget_keywords_df['소분류'], budget_keywords_df['중분류']))
+subcategory_to_major = dict(zip(budget_keywords_df['소분류'], budget_keywords_df['대분류']))
 
 # 4. 뉴스 텍스트 전처리
 def prepare_news_text(row):
@@ -205,39 +206,41 @@ major_category_stats = results_df.groupby('대분류').agg({
 major_category_stats.columns = ['대분류', '기사수', '평균유사도']
 
 # 그래프 생성
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(20, 10))
+plt.figure(figsize=(15, 8))
+sns.set_style("whitegrid")
 
-# 1. 대분류별 기사 수
+# 기사 수 기준으로 정렬
 major_category_stats = major_category_stats.sort_values('기사수', ascending=True)
-bars1 = ax1.barh(major_category_stats['대분류'], major_category_stats['기사수'], color='skyblue')
-ax1.set_title('대분류별 매핑된 뉴스 기사 수', fontsize=14, pad=20, fontproperties='AppleGothic')
-ax1.set_xlabel('기사 수', fontsize=12, fontproperties='AppleGothic')
-ax1.set_ylabel('대분류', fontsize=12, fontproperties='AppleGothic')
 
-# 각 막대에 수치 표시
-for i, v in enumerate(major_category_stats['기사수']):
-    ax1.text(v, i, f' {v:,}', va='center', fontsize=10, fontproperties='AppleGothic')
+# 바 그래프 생성
+bars = plt.barh(major_category_stats['대분류'], major_category_stats['기사수'], color='skyblue')
 
-# 2. 대분류별 평균 유사도
-major_category_stats = major_category_stats.sort_values('평균유사도', ascending=True)
-bars2 = ax2.barh(major_category_stats['대분류'], major_category_stats['평균유사도'], color='lightgreen')
-ax2.set_title('대분류별 평균 유사도', fontsize=14, pad=20, fontproperties='AppleGothic')
-ax2.set_xlabel('평균 유사도', fontsize=12, fontproperties='AppleGothic')
-ax2.set_ylabel('대분류', fontsize=12, fontproperties='AppleGothic')
+# 각 막대에 기사 수와 평균 유사도 표시
+for i, bar in enumerate(bars):
+    width = bar.get_width()
+    avg_similarity = major_category_stats['평균유사도'].iloc[i]
+    
+    # 레이블 텍스트 생성
+    label_text = f'기사수: {width:,}\n평균유사도: {avg_similarity:.3f}'
+    plt.text(width, i, label_text, 
+             ha='left', va='center', 
+             fontproperties='AppleGothic',
+             fontsize=9)
 
-# 각 막대에 수치 표시
-for i, v in enumerate(major_category_stats['평균유사도']):
-    ax2.text(v, i, f' {v:.3f}', va='center', fontsize=10, fontproperties='AppleGothic')
+plt.title('대분류별 뉴스 기사 분포', fontsize=14, pad=20, fontproperties='AppleGothic')
+plt.xlabel('기사 수', fontsize=12, fontproperties='AppleGothic')
+plt.ylabel('대분류', fontsize=12, fontproperties='AppleGothic')
 
 # y축 레이블의 폰트 설정
-for ax in [ax1, ax2]:
-    for label in ax.get_yticklabels():
-        label.set_fontproperties('AppleGothic')
+for label in plt.gca().get_yticklabels():
+    label.set_fontproperties('AppleGothic')
 
 # 그래프 간격 조정
 plt.tight_layout()
 
 # 그래프 저장
+date_str = re.search(r'\d{8}-\d{8}', input_file).group() if re.search(r'\d{8}-\d{8}', input_file) else "results"
+plot_file = os.path.join(classified_dir, f"Classified_Graph_{date_str}.png")
 plt.savefig(plot_file, dpi=300, bbox_inches='tight', facecolor='white')
 plt.close()
 
