@@ -78,24 +78,34 @@ def summarize_region_school_data(school_type: str, budget_type: str, revenue_typ
                     continue
 
                 numeric_cols = df.select_dtypes(include='number').columns
-                mean_values = df[numeric_cols].mean()
-                row = [filename] + mean_values.tolist() + [school_level]
+                mean_values = df[numeric_cols].sum()
+                count = len(df)
+                row = [filename] + mean_values.tolist() + [school_level, count]
                 df_list.append(row)
 
         if df_list:
-            columns = ["파일명"] + list(mean_values.index) + ["학교급"]
+            columns = ["파일명"] + list(mean_values.index) + ["학교급", "학교 수"]
             summary_df = pd.DataFrame(df_list, columns=columns)
 
             # 학교급별 평균 행 추가
             avg_rows = []
             for school_level in summary_df["학교급"].unique():
                 temp = summary_df[summary_df["학교급"] == school_level]
-                avg_vals = temp.iloc[:, 1:-1].mean()
-                avg_row = [f"{school_level}_평균"] + avg_vals.tolist() + [school_level]
+                weights = temp["학교 수"]
+                weighted_avg = (temp.iloc[:, 1:-2].multiply(weights, axis=0).sum() / weights.sum())
+                avg_row = [f"{school_level}_평균"] + weighted_avg.tolist() + [school_level, weights.sum()]
                 avg_rows.append(avg_row)
 
             avg_df = pd.DataFrame(avg_rows, columns=columns)
-            final_df = pd.concat([summary_df, avg_df], ignore_index=True)
+
+            # 전체 평균 행 추가
+            weights = summary_df["학교 수"]
+            overall_weighted_avg = (summary_df.iloc[:, 1:-2].multiply(weights, axis=0).sum() / weights.sum())
+            overall_avg_row = ["전체_평균"] + overall_weighted_avg.tolist() + ["전체", weights.sum()]
+            overall_avg_df = pd.DataFrame([overall_avg_row], columns=columns)
+
+            # 최종 결합
+            final_df = pd.concat([summary_df, avg_df, overall_avg_df], ignore_index=True)
 
             output_filename = f"{school_type}_{budget_type}_{revenue_type}_요약.csv"
             output_path = os.path.join(output_dir, output_filename)

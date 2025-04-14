@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import re
 
 def summarize_budget_means_from_csv_folder(folder_path: str, output_dir: str):
     """
@@ -75,6 +76,10 @@ def summarize_budget_means_from_csv_folder(folder_path: str, output_dir: str):
         for col in selected_cols:
             row[amt_map[col]] = df[col].mean()
         row["평균합계"] = sum([row[amt_map[c]] for c in selected_cols])
+        
+        # 학교급 정보 추출
+        school_level_match = re.search(r"(초등|중등|고등)", filename)
+        row["학교급"] = school_level_match.group(1) if school_level_match else None
         result_dict[key].append(row)
 
     # 저장
@@ -82,45 +87,33 @@ def summarize_budget_means_from_csv_folder(folder_path: str, output_dir: str):
         if records:
             output_filename = f"{prefix}_{key}_요약.csv"  # 여기서 prefix 추가됨!
             output_path = os.path.join(output_dir, output_filename)
-            summary_df = pd.DataFrame(records)
-            summary_df.to_csv(output_path, index=False, encoding="utf-8-sig")
+            # 평균 행 추가 (학교급별 및 전체)
+            school_level_frames = {"초등": [], "중등": [], "고등": []}
+            for record in result_dict[key]:
+                level = record.get("학교급")
+                if level in school_level_frames:
+                    school_level_frames[level].append(record)
+
+            avg_rows = []
+            for level, records in school_level_frames.items():
+                if records:
+                    df_level = pd.DataFrame(records)
+                    mean_vals = df_level.drop(columns=["파일명", "학교급"]).mean()
+                    avg_row = {"파일명": f"{prefix}_{key}_{level}_평균", "학교급": level}
+                    avg_row.update(mean_vals.to_dict())
+                    avg_rows.append(avg_row)
+
+            # 전체 평균
+            df_all = pd.DataFrame(result_dict[key])
+            mean_total = df_all.drop(columns=["파일명", "학교급"]).mean()
+            avg_total_row = {"파일명": f"{prefix}_{key}_전체_평균", "학교급": "전체"}
+            avg_total_row.update(mean_total.to_dict())
+            avg_rows.append(avg_total_row)
+
+            # 최종 결과 저장
+            df_final = pd.concat([df_all, pd.DataFrame(avg_rows)], ignore_index=True)
+            df_final.to_csv(output_path, index=False, encoding="utf-8-sig")
             print(f"✅ {output_filename} 저장 완료 → {output_path}")
-
-def append_school_level_means_to_summary(summary_csv_path: str):
-    """
-    요약 CSV 파일에서 초/중/고 학교급별 평균 행을 추가하여 원래 파일에 덮어씌웁니다.
-    파일명이 '초등_...', '중등_...', '고등_...'으로 시작하거나 '_초등_', '_중등_' 등으로 포함된 경우 모두 인식 가능.
-
-    Args:
-        summary_csv_path (str): 요약 CSV 파일 경로
-    """
-    try:
-        df = pd.read_csv(summary_csv_path)
-
-        # 파일명에서 초등/중등/고등 추출 - 맨 앞이거나 중간에 있어도 작동
-        df["학교급"] = df["파일명"].str.extract(r"(?:^|_)(초등|중등|고등)(?:_|$)")
-
-        # 평균 계산 대상 컬럼
-        value_columns = [col for col in df.columns if col not in ["파일명", "학교급"]]
-
-        # 초/중/고 학교급별 평균 행 계산
-        mean_rows = []
-        for level in ["초등", "중등", "고등"]:
-            sub_df = df[df["학교급"] == level]
-            if not sub_df.empty:
-                mean_values = sub_df[value_columns].mean()
-                mean_row = {"파일명": f"{level}_평균"}
-                mean_row.update(mean_values)
-                mean_row["학교급"] = level
-                mean_rows.append(mean_row)
-
-        # 평균 행 추가 후 저장
-        df_final = pd.concat([df, pd.DataFrame(mean_rows)], ignore_index=True)
-        df_final.to_csv(summary_csv_path, index=False, encoding="utf-8-sig")
-        print(f"✅ 학교급 평균 추가 완료: {summary_csv_path}")
-
-    except Exception as e:
-        print(f"❌ 처리 실패: {summary_csv_path} → {e}")
 
 def summarize_total_and_school_level_mean(input_dir: str, output_dir: str, prefix: str):
     """
@@ -230,26 +223,6 @@ def main():
         folder_path="Database/schoolinfo/combined_csv",
         output_dir="Database/schoolinfo/summary/combined_summary"
     )
-
-    # 평균 행 추가
-    summary_files = [
-        "Database/schoolinfo/summary/private_summary/private_예산_세출_요약.csv",
-        "Database/schoolinfo/summary/private_summary/private_결산_세출_요약.csv",
-        "Database/schoolinfo/summary/private_summary/private_예산_세입_요약.csv",
-        "Database/schoolinfo/summary/private_summary/private_결산_세입_요약.csv",
-        "Database/schoolinfo/summary/public_summary/public_예산_세출_요약.csv",
-        "Database/schoolinfo/summary/public_summary/public_결산_세출_요약.csv",
-        "Database/schoolinfo/summary/public_summary/public_예산_세입_요약.csv",
-        "Database/schoolinfo/summary/public_summary/public_결산_세입_요약.csv",
-        "Database/schoolinfo/summary/combined_summary/combined_예산_세출_요약.csv",
-        "Database/schoolinfo/summary/combined_summary/combined_결산_세출_요약.csv",
-        "Database/schoolinfo/summary/combined_summary/combined_예산_세입_요약.csv",
-        "Database/schoolinfo/summary/combined_summary/combined_결산_세입_요약.csv"
-    ]
-
-    for path in summary_files:
-        append_school_level_means_to_summary(path)
-
 
 if __name__ == "__main__":
     main()
