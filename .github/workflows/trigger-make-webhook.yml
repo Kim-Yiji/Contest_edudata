@@ -1,0 +1,14 @@
+name: Trigger Make Webhook
+
+on:
+  schedule:
+    - cron: '59 23 28-31 * *' # 매달 말일 밤 11:59 (UTC 기준)
+
+jobs:
+  trigger_webhook:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Call Make Webhook
+      run: |
+        curl -X POST "${{ secrets.MAKE_WEBHOOK_URL }}"
