@@ -1,0 +1,14 @@
+
+name: Trigger Make Webhook Test
+
+on:
+  workflow_dispatch:  # ❗ 수동 실행만 가능하도록 설정
+
+jobs:
+  trigger_webhook_test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Call Make Webhook Test
+      run: |
+        curl -X POST "${{ secrets.MAKE_WEBHOOK_URL_TEST }}"
