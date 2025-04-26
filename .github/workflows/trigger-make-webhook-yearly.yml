@@ -1,15 +1,17 @@
-name: Trigger Make Webhook Yearly
+name: Trigger Make Webhook for Yearly
 
 on:
   schedule:
-    - cron: '59 14 31 12 *' # 매년 12월 31일 한국시간 23:59 기준 (UTC 14:59)
-  workflow_dispatch:  # 수동 실행 가능
+    - cron: '59 14 31 12 *' # 매년 12월 31일 밤 11:59 KST 기준
+  workflow_dispatch:
 
 jobs:
-  trigger_webhook_yearly:
+  trigger_webhook:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Call Make Webhook Yearly
+    - name: Call Make Webhook for Yearly
       run: |
-        curl -X POST "${{ secrets.MAKE_WEBHOOK_URL_YEARLY }}"
+        curl -X POST "${{ secrets.MAKE_WEBHOOK_URL }}" \
+          -H "Content-Type: application/json" \
+          -d '{"type": "year"}'

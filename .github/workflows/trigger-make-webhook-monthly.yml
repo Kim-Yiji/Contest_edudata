@@ -1,15 +1,17 @@
-name: Trigger Make Webhook Monthly
+name: Trigger Make Webhook for Monthly
 
 on:
   schedule:
-    - cron: '59 14 28-31 * *' # 매달 말일 밤 11:59 (한국시간 기준, UTC 14:59)
-  workflow_dispatch:  # 수동 실행도 가능하게
+    - cron: '59 14 28-31 * *' # 매달 말일 밤 11:59 KST 기준 (UTC 14:59)
+  workflow_dispatch:
 
 jobs:
-  trigger_webhook_monthly:
+  trigger_webhook:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Call Make Webhook Monthly
+    - name: Call Make Webhook for Monthly
       run: |
-        curl -X POST "${{ secrets.MAKE_WEBHOOK_URL_MONTHLY }}"
+        curl -X POST "${{ secrets.MAKE_WEBHOOK_URL }}" \
+          -H "Content-Type: application/json" \
+          -d '{"type": "month"}'
