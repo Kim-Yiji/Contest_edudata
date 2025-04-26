@@ -1,6 +1,7 @@
 #아차차
 App/config.py
 Database/etc
+data2.ipynb
 
 #용량 이슈
 Database/edss/0004.유초중등학생현황(09-23)(100%).csv
