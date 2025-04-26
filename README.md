@@ -1,2 +1,10 @@
 # Contest_edudata
 25-1 교육 공공데이터 공모전
+
+0. config 파일 세팅 : API_KEY = "발급된 키" 형태
+1. uvicorn App.main:app --reload
+2. http://localhost:8000/docs
+3. certifi 관련 환경 셋업 - 난 그냥 verify = False 해버림
+4-1. API/schoolinfo/schoolinfo_batch.py
+4-2. curl -X POST "http://localhost:8000/schoolinfo/batch?type=both"  : type에서 private, public 선택가능
+5. 교육청 필터링 : python utils/get_gyeonggi.py
