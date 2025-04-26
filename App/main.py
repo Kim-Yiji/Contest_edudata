@@ -1,7 +1,4 @@
 from fastapi import FastAPI
-from App.publicdata.schoolinfo.public_schoolinfo_router import router as schoolinfo_router
-from App.publicdata.schoolinfo.private_schoolinfo_router import router as private_school_router
-from App.publicdata.schoolinfo.schoolinfo_batch_router import router as batch_router
 from App.news.news_router import router as news_router
 from App.publicdata.publicdata_router import router as publicdata_router
 
@@ -12,9 +9,6 @@ app = FastAPI(
 )
 
 # 라우터 등록
-app.include_router(schoolinfo_router)
-app.include_router(private_school_router)
-app.include_router(batch_router)
 app.include_router(news_router)
 app.include_router(publicdata_router)
 

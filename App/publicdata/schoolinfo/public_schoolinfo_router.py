@@ -1,13 +1,13 @@
 from fastapi import APIRouter, HTTPException
-from API.schoolinfo.schoolinfo import fetch_budget_data
-from API.schoolinfo.schoolinfo_schema import SchoolBudgetRequest
-from App.config import API_KEY
+from API.publicdata.schoolinfo.schoolinfo import fetch_budget_data
+from API.publicdata.schoolinfo.schoolinfo_schema import SchoolBudgetRequest
+from App.publicdata.schoolinfo.config import API_KEY
 from utils.data_handler import save_json
 import traceback
 
-router = APIRouter(prefix="/publicschool", tags=["SchoolInfo"])
+router = APIRouter(prefix="/publicdata/schoolinfo", tags=["Public Data"])
 
-@router.post("/budget")
+@router.post("/budget", summary="Get Public School Budget and Save")
 def get_budget_and_save(request: SchoolBudgetRequest):
     try:
         # 1. 외부 API 호출

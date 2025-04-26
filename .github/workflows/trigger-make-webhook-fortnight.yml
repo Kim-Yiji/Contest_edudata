@@ -1,0 +1,19 @@
+name: Trigger Fortnight News Collection
+
+on:
+  schedule:
+    - cron: '0 14 1,15 * *'  # 매월 1일과 15일, 한국시간 기준 자정 23:59 트리거 (UTC 기준 14시)
+  workflow_dispatch:  # 수동 실행도 가능하게
+
+jobs:
+  trigger-fortnight-news-collect:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Trigger Make Webhook for Fortnight
+      run: |
+        curl -X POST "$WEBHOOK_URL" \
+          -H "Content-Type: application/json" \
+          -d '{"type": "fortnight"}'
+      env:
+        WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}

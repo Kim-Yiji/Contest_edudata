@@ -2,7 +2,7 @@ from fastapi import APIRouter, Query
 import requests
 import time
 
-router = APIRouter(prefix="/schoolinfo", tags=["Batch Download"])
+router = APIRouter(prefix="/publicdata/schoolinfo", tags=["Public Data"])
 
 BASE_URL = "http://localhost:8000"
 ENDPOINTS = {
@@ -10,7 +10,7 @@ ENDPOINTS = {
     "private": "/privateschool/budget"
 }
 
-@router.post("/batch")
+@router.post("/both/budget", summary="Batch Download Public and Private School Budgets")
 def run_batch_download(type: str = Query("both", enum=["public", "private", "both"])):
     count = 0
     failed = []
