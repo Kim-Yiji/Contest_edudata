@@ -1,6 +1,9 @@
 from fastapi import FastAPI
 from App.news.news_router import router as news_router
 from App.publicdata.publicdata_router import router as publicdata_router
+from App.merge.merge_news_publicdata import router as merge_router
+from App.report.report_monthly import router as report_monthly_router
+from App.report.report_yearly import router as report_yearly_router
 
 app = FastAPI(
     title="학교 예결산서 월별/연별 보고서 API 서비스",
@@ -11,6 +14,9 @@ app = FastAPI(
 # 라우터 등록
 app.include_router(news_router)
 app.include_router(publicdata_router)
+app.include_router(merge_router)
+app.include_router(report_monthly_router)
+app.include_router(report_yearly_router)
 
 # 실행용 (uvicorn으로 실행할 때는 필요 없음)
 if __name__ == "__main__":

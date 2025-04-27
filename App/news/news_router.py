@@ -12,6 +12,14 @@ async def collect_news_data():
 
 @router.post("/process_monthly", summary="Process Monthly News")
 async def process_monthly_news():
+    # # 1. 수집된 데이터가 있는지 확인
+    # if not is_news_collected_this_month():
+    #     # 2. 없으면 Collect 먼저 수행
+    #     collect_news()
+    
+    # # 3. 월별 프로세싱 진행
+    # process_collected_news_monthly()
+
     return {"message": "Monthly news processed"}
 
 @router.post("/process_yearly", summary="Process Yearly News")
