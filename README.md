@@ -21,6 +21,9 @@
 3. SSL 인증서 관련 오류 발생 시  
    - requests 모듈 사용 시 `verify=False` 옵션 추가로 회피
 
+4. ngrok
+ngrok http 8000
+
 ## 주요 API 구조
 
 ### 퍼블릭 데이터 (학교 예결산서 관련)
