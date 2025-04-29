@@ -1,11 +1,9 @@
-
-
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 
 router = APIRouter(
     prefix="/report",
-    tags=["report"]
+    tags=["Report"]
 )
 
 class YearlyReportRequest(BaseModel):

@@ -3,7 +3,7 @@ from pydantic import BaseModel
 
 router = APIRouter(
     prefix="/report",
-    tags=["report"]
+    tags=["Report"]
 )
 
 class MonthlyReportRequest(BaseModel):
