@@ -1,4 +1,5 @@
 .env
+App/publicdata/schoolinfo/config.py
 
 #
 .DS_Store

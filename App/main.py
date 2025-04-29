@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+<<<<<<< HEAD
 # from App.news.news_router import router as news_router
 # from App.publicdata.publicdata_router import router as publicdata_router
 from App.news.news_collect_router import router as news_collect_router
@@ -17,6 +18,13 @@ from App.report.report_region_router import router as report_region_router
 from App.report.report_table_router import router as report_table_router
 from App.report.report_piechart_router import router as report_piechart_router
 from App.gpt.gpt_summary_router import router as gpt_summary_router
+=======
+from App.news.news_router import router as news_router
+from App.publicdata.publicdata_router import router as publicdata_router
+from App.merge.merge_news_publicdata import router as merge_router
+from App.report.report_monthly import router as report_monthly_router
+from App.report.report_yearly import router as report_yearly_router
+>>>>>>> a2c8b5abacb908656d06a6bead7187d4b67fbb56
 
 app = FastAPI(
     title="학교 예결산서 월별/연별 보고서 API 서비스",
@@ -25,6 +33,7 @@ app = FastAPI(
 )
 
 # 라우터 등록
+<<<<<<< HEAD
 # app.include_router(news_router)
 # app.include_router(publicdata_router)
 app.include_router(news_collect_router)
@@ -42,6 +51,13 @@ app.include_router(report_region_router)
 app.include_router(report_table_router)
 app.include_router(report_piechart_router)
 app.include_router(gpt_summary_router)
+=======
+app.include_router(news_router)
+app.include_router(publicdata_router)
+app.include_router(merge_router)
+app.include_router(report_monthly_router)
+app.include_router(report_yearly_router)
+>>>>>>> a2c8b5abacb908656d06a6bead7187d4b67fbb56
 
 # 실행용 (uvicorn으로 실행할 때는 필요 없음)
 if __name__ == "__main__":
